@@ -24,7 +24,7 @@ public class CardOrderTest {
 
     @BeforeEach
     void setup() {
-        driver = new ChromeDriver(new ChromeOptions().addArguments("--headless"));
+        driver = new ChromeDriver();
     }
 
     @AfterEach
